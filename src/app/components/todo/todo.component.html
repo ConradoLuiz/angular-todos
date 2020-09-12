@@ -1,0 +1,14 @@
+<div [ngClass]="setClasses()">
+  <p>
+    <input
+      (change)="onToggle()"
+      type="checkbox"
+      id="mark_complete_{{ todo.id }}"
+      [checked]="todo.completed"
+    />
+    <label for="mark_complete_{{ todo.id }}">
+      {{ todo.title }}
+    </label>
+    <button (click)="onDelete($event)" class="del"></button>
+  </p>
+</div>

@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 50px 10px;
+}
+
+a {
+  color: rgb(16, 187, 255);
+}

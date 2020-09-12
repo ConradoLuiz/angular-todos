@@ -1,13 +1,13 @@
-.main-section {
+:host {
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
 
-  padding: 50px;
+  padding: 50px 10px;
 }
 
-nav {
-  margin: 30px 10px 10px;
-  text-align: center;
+:host > * {
+  width: 100%;
+  max-width: 600px;
 }
